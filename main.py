@@ -46,7 +46,7 @@ class Student:
         print(f"Grades Count: {len(self.grades)}")
         print(f"Grades: {self.grades}")
         print(f"Average Grade: {self.calc_average():.2f}")
-        print(f"Passed: {'Yes' if self.calc_average() >= 60 else 'No'}")
+        print(f"Passed: {'Passed' if self.calc_average() >= 60 else 'Failed'}")
         print(f"Honor Roll: {'Yes' if self.honor else 'No'}")
 
 def startrun():
